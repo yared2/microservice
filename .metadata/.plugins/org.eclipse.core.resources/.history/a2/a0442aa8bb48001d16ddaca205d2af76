@@ -1,0 +1,8 @@
+
+#to pick ruandom port number we put 0
+server.port=0
+spring.application.name=users-ws
+#where the eureka located so this ws can register
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+
+spring.devtools.remote.restart.enabled=true

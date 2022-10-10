@@ -1,0 +1,16 @@
+
+server.port=8082
+spring.application.name=api-gateway
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
+
+#allow spring cloudgateway to map reuqest to specific microservice by its name
+spring.cloud.gateway.discovery.locator.enabled=true
+
+#use this to allow gateway to accept lowercase url only even though eureka shows upercase
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+spring.cloud.gateway.routes[0].id=users-status-check
+spring.cloud.gateway.routes[0].uri=lb://users-ws
+spring.cloud.gateway.routes[0].predicates[0]=Path=/users/status/check
+spring.cloud.gateway.routes[0].predicates[1]=Method=GET
+spring.cloud.gateway.routes[0].filters[0]=RemoveRequestHeader=Cookie
