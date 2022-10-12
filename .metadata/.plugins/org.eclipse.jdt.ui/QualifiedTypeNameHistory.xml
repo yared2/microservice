@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.userservice.UserService"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.ui.model.response.UserRest"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.userservice.imple.UserServiceImple"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.appsdeveloperblog.app.ws.shared.Utils"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
@@ -44,4 +43,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>

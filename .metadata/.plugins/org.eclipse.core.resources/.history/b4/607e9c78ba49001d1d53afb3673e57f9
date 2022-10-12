@@ -1,0 +1,5 @@
+package com.appsdeveloperblog.photoapp.api.user.security;
+
+public class Websecurity {
+
+}

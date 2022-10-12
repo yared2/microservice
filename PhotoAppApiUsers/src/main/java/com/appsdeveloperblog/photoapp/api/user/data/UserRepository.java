@@ -1,0 +1,8 @@
+package com.appsdeveloperblog.photoapp.api.user.data;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<UserEntity, Integer> {
+
+	UserEntity findByEmail(String Email);
+}
