@@ -1,9 +1,0 @@
-#server.port =0
-#spring.application.name = AccountManagment-ws
-#eureka.client.service-url.defaultZone=http://localhost:8010/eureka
-#spring.devtools.remote.restart.enabled=true
-
-
-
-
-

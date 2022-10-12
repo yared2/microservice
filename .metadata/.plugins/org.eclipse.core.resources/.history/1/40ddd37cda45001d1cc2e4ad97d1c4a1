@@ -1,9 +1,0 @@
-server.port = 8010
-spring.application.name=discoveryserver
-#to disable eureka to regester 
-eureka.client.register-with-eureka=false
-eureka.client.fetch-registry=false
-eureka.instance.prefer-ip-address=true
-
-#client application comunicate with the below url
-eureka.client.service-url.defaultZone=http://localhost:8010/eureka  

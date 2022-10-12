@@ -1,8 +1,0 @@
-package com.appsdeveloperblog.photoapp.api.user.service;
-
-import com.appsdeveloperblog.photoapp.api.user.shared.UserDto;
-
-public interface UserService {
- UserDto createUser(UserDto userDetails);
-
-}
